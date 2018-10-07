@@ -10,8 +10,9 @@ class ElmHotAsset extends ElmAsset {
 
   async parse() {
     await super.parse();
-    const baseLength = this.contents.length;
-    this.contents = inject(this.contents);
+    if (this.options.hmr) {
+      this.contents = inject(this.contents);
+    }
   }
 }
 
