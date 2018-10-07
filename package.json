@@ -1,0 +1,11 @@
+{
+  "author": "Tomasz Kontusz",
+  "license": "MIT",
+  "name": "parcel-plugin-elm-hot",
+  "version": "1.0.0",
+  "description": "Parcel plugin for Elm HMR with elm-hot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
