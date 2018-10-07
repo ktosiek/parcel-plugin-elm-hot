@@ -16,6 +16,7 @@
     "url": "https://github.com/ktosiek/parcel-plugin-elm-hot.git"
   },
   "dependencies": {
-    "elm-hot": "^1.0.1"
+    "elm-hot": "^1.0.1",
+    "parcel-bundler": "^1.10.2"
   }
 }
