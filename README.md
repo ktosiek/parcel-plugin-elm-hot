@@ -10,3 +10,9 @@ $ npm install --save-dev parcel-plugin-elm-hot
 ```
 $ yarn add --dev parcel-plugin-elm-hot
 ```
+
+# Changelog
+
+## [1.0.1] - 2018-10-07
+### Changed
+- Only inject elm-hot if HMR is enabled.
